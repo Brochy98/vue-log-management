@@ -1,3 +1,4 @@
+// Vessel
 export type Vessel = {
   vesselId: number
   name: string

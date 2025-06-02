@@ -103,7 +103,6 @@ const props = defineProps<{
 const sortKey = ref<'date'>('date')
 const sortDirection = ref<'asc' | 'desc'>('asc')
 
-// Sort and filter Maintenance logs
 const sortedMaintenanceLogs = computed(() => {
   const filtered = props.logs.filter((log) => log.type === 'Maintenance')
 
