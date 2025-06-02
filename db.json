@@ -1,0 +1,444 @@
+{
+  "logs": [
+    {
+      "logId": 1,
+      "date": "2024-03-01",
+      "vesselId": 1001,
+      "type": "Maintenance",
+      "activityType": "Scheduled",
+      "description": "Annual engine maintenance",
+      "durationHours": 4,
+      "servicePerformed": [
+        "Engine Check",
+        "Oil Change"
+      ],
+      "outcome": "Successful"
+    },
+    {
+      "logId": 2,
+      "date": "2024-03-02",
+      "vesselId": 1002,
+      "type": "Operation",
+      "operationType": "Navigation",
+      "description": "Navigated through heavy fog",
+      "durationHours": 3,
+      "outcome": "Successful"
+    },
+    {
+      "logId": 3,
+      "date": "2024-03-03",
+      "vesselId": 1003,
+      "type": "Incident",
+      "incidentType": "Mechanical Failure",
+      "description": "Main engine failure during operation",
+      "impactLevel": "High",
+      "resolved": false
+    },
+    {
+      "logId": 4,
+      "date": "2024-03-04",
+      "vesselId": 1001,
+      "type": "Maintenance",
+      "activityType": "Emergency",
+      "description": "Emergency hull repair after minor collision",
+      "durationHours": 8,
+      "servicePerformed": [
+        "Hull Inspection",
+        "Hull Welding"
+      ],
+      "outcome": "Successful"
+    },
+    {
+      "logId": 5,
+      "date": "2024-03-05",
+      "vesselId": 1004,
+      "type": "Operation",
+      "operationType": "Loading/Unloading Cargo",
+      "description": "Unloaded cargo at port",
+      "durationHours": 5,
+      "outcome": "With Issues"
+    },
+    {
+      "logId": 6,
+      "date": "2024-03-06",
+      "vesselId": 1005,
+      "type": "Incident",
+      "incidentType": "Collision",
+      "description": "Collision with dock during berthing",
+      "impactLevel": "Moderate",
+      "resolved": true
+    },
+    {
+      "logId": 7,
+      "date": "2024-03-07",
+      "vesselId": 1001,
+      "type": "Maintenance",
+      "activityType": "Scheduled",
+      "description": "Radar system maintenance and calibration",
+      "durationHours": 2,
+      "servicePerformed": [
+        "Radar Calibration",
+        "Software Update"
+      ],
+      "outcome": "Successful"
+    },
+    {
+      "logId": 8,
+      "date": "2024-03-08",
+      "vesselId": 1003,
+      "type": "Operation",
+      "operationType": "Survey",
+      "description": "Conducted seabed survey for potential hazards",
+      "durationHours": 6,
+      "outcome": "Successful"
+    },
+    {
+      "logId": 9,
+      "date": "2024-03-09",
+      "vesselId": 1002,
+      "type": "Incident",
+      "incidentType": "Navigation System Error",
+      "description": "GPS malfunction led to off-course navigation",
+      "impactLevel": "Low",
+      "resolved": true
+    },
+    {
+      "logId": 10,
+      "date": "2024-03-10",
+      "vesselId": 1004,
+      "type": "Maintenance",
+      "activityType": "Emergency",
+      "description": "Electrical system overhaul due to short circuit",
+      "durationHours": 12,
+      "servicePerformed": [
+        "Circuit Inspection",
+        "Wire Replacement"
+      ],
+      "outcome": "Successful"
+    },
+    {
+      "logId": 11,
+      "date": "2024-03-11",
+      "vesselId": 1001,
+      "type": "Operation",
+      "operationType": "Rescue",
+      "description": "Participated in search and rescue operation for overboard crew member",
+      "durationHours": 3,
+      "outcome": "Successful"
+    },
+    {
+      "logId": 12,
+      "date": "2024-03-12",
+      "vesselId": 1001,
+      "type": "Incident",
+      "incidentType": "Fire",
+      "description": "Engine room fire caused by fuel leak",
+      "impactLevel": "High",
+      "resolved": false
+    },
+    {
+      "logId": 13,
+      "date": "2024-03-13",
+      "vesselId": 1002,
+      "type": "Maintenance",
+      "activityType": "Scheduled",
+      "description": "Propeller and shaft inspection",
+      "durationHours": 4,
+      "servicePerformed": [
+        "Propeller Balancing",
+        "Shaft Alignment"
+      ],
+      "outcome": "Successful"
+    },
+    {
+      "logId": 14,
+      "date": "2024-03-14",
+      "vesselId": 1003,
+      "type": "Operation",
+      "operationType": "Exploration",
+      "description": "Marine wildlife observation in protected area",
+      "durationHours": 5,
+      "outcome": "Successful"
+    },
+    {
+      "logId": 15,
+      "date": "2024-03-15",
+      "vesselId": 1002,
+      "type": "Incident",
+      "incidentType": "Pollution",
+      "description": "Accidental discharge of ballast water",
+      "impactLevel": "Moderate",
+      "resolved": true
+    },
+    {
+      "logId": 16,
+      "date": "2024-03-07",
+      "vesselId": 1004,
+      "type": "Maintenance",
+      "activityType": "Scheduled",
+      "description": "Propeller inspection and maintenance",
+      "durationHours": 6,
+      "servicePerformed": [
+        "Propeller Inspection",
+        "Propeller Polishing"
+      ],
+      "outcome": "Successful"
+    },
+    {
+      "logId": 17,
+      "date": "2024-03-08",
+      "vesselId": 1001,
+      "type": "Operation",
+      "operationType": "Survey",
+      "description": "Conducted sea floor mapping for potential cable route",
+      "durationHours": 12,
+      "outcome": "Successful"
+    },
+    {
+      "logId": 18,
+      "date": "2024-03-09",
+      "vesselId": 1005,
+      "type": "Incident",
+      "incidentType": "Navigation System Failure",
+      "description": "GPS and radar systems failed during night navigation",
+      "impactLevel": "Moderate",
+      "resolved": false
+    },
+    {
+      "logId": 19,
+      "date": "2024-03-10",
+      "vesselId": 1005,
+      "type": "Maintenance",
+      "activityType": "Emergency",
+      "description": "Repaired breach in fuel tank",
+      "durationHours": 24,
+      "servicePerformed": [
+        "Fuel Tank Inspection",
+        "Breach Welding"
+      ],
+      "outcome": "Successful"
+    },
+    {
+      "logId": 20,
+      "date": "2024-03-11",
+      "vesselId": 1003,
+      "type": "Operation",
+      "operationType": "Research",
+      "description": "Collected water samples for microplastic analysis",
+      "durationHours": 8,
+      "outcome": "Successful"
+    },
+    {
+      "logId": 21,
+      "date": "2024-03-12",
+      "vesselId": 1001,
+      "type": "Incident",
+      "incidentType": "Power Outage",
+      "description": "Complete power outage during storm conditions",
+      "impactLevel": "High",
+      "resolved": true
+    },
+    {
+      "logId": 22,
+      "date": "2024-03-13",
+      "vesselId": 1002,
+      "type": "Maintenance",
+      "activityType": "Scheduled",
+      "description": "Routine check-up of electrical systems",
+      "durationHours": 3,
+      "servicePerformed": [
+        "Electrical System Diagnostic",
+        "Circuitry Inspection"
+      ],
+      "outcome": "Successful"
+    },
+    {
+      "logId": 23,
+      "date": "2024-03-14",
+      "vesselId": 1002,
+      "type": "Operation",
+      "operationType": "Patrol",
+      "description": "Patrolled designated marine area for unauthorized fishing activity",
+      "durationHours": 10,
+      "outcome": "With Issues"
+    },
+    {
+      "logId": 24,
+      "date": "2024-03-15",
+      "vesselId": 114,
+      "type": "Incident",
+      "incidentType": "Fire",
+      "description": "Fire in the galley contained and extinguished",
+      "impactLevel": "Low",
+      "resolved": true
+    },
+    {
+      "logId": 25,
+      "date": "2024-03-07",
+      "vesselId": 1002,
+      "type": "Maintenance",
+      "activityType": "Scheduled",
+      "description": "Propeller inspection and maintenance",
+      "durationHours": 2,
+      "servicePerformed": [
+        "Propeller Inspection",
+        "Propeller Polishing"
+      ],
+      "outcome": "Successful"
+    },
+    {
+      "logId": 26,
+      "date": "2024-03-08",
+      "vesselId": 1002,
+      "type": "Operation",
+      "operationType": "Research",
+      "description": "Conducted marine biology research in open sea",
+      "durationHours": 8,
+      "outcome": "Successful"
+    },
+    {
+      "logId": 27,
+      "date": "2024-03-09",
+      "vesselId": 1004,
+      "type": "Incident",
+      "incidentType": "Navigation System Failure",
+      "description": "GPS system failure while navigating through restricted waters",
+      "impactLevel": "Moderate",
+      "resolved": false
+    },
+    {
+      "logId": 28,
+      "date": "2024-03-10",
+      "vesselId": 1001,
+      "type": "Maintenance",
+      "activityType": "Emergency",
+      "description": "Electrical system overhaul due to unexpected short circuit",
+      "durationHours": 12,
+      "servicePerformed": [
+        "Electrical System Inspection",
+        "Cable Replacement"
+      ],
+      "outcome": "Successful"
+    },
+    {
+      "logId": 29,
+      "date": "2024-03-11",
+      "vesselId": 1005,
+      "type": "Operation",
+      "operationType": "Patrol",
+      "description": "Patrolled designated marine area for illegal fishing activities",
+      "durationHours": 6,
+      "outcome": "With Issues"
+    },
+    {
+      "logId": 30,
+      "date": "2024-03-12",
+      "vesselId": 1001,
+      "type": "Incident",
+      "incidentType": "Fire",
+      "description": "Fire in engine room during routine operation",
+      "impactLevel": "High",
+      "resolved": true
+    },
+    {
+      "logId": 31,
+      "date": "2024-03-13",
+      "vesselId": 1005,
+      "type": "Maintenance",
+      "activityType": "Scheduled",
+      "description": "Routine check-up of life-saving equipment",
+      "durationHours": 3,
+      "servicePerformed": [
+        "Life Jacket Inspection",
+        "Lifeboat Testing"
+      ],
+      "outcome": "Successful"
+    },
+    {
+      "logId": 32,
+      "date": "2024-03-14",
+      "vesselId": 1005,
+      "type": "Operation",
+      "operationType": "Survey",
+      "description": "Geological survey of seabed for potential mining sites",
+      "durationHours": 10,
+      "outcome": "Successful"
+    },
+    {
+      "logId": 33,
+      "date": "2024-03-15",
+      "vesselId": 1003,
+      "type": "Incident",
+      "incidentType": "Oil Spill",
+      "description": "Minor oil spill during refueling operation",
+      "impactLevel": "Low",
+      "resolved": true
+    },
+    {
+      "logId": 34,
+      "date": "2024-03-16",
+      "vesselId": 1002,
+      "type": "Maintenance",
+      "activityType": "Emergency",
+      "description": "Rudder malfunction repair",
+      "durationHours": 7,
+      "servicePerformed": [
+        "Rudder Inspection",
+        "Hydraulic System Repair"
+      ],
+      "outcome": "Successful"
+    }
+  ],
+  "vessels": [
+    {
+      "vesselId": 1001,
+      "name": "SS Enterprise",
+      "type": "Cargo",
+      "capacityTons": 50000,
+      "powerManagement": {
+        "systemType": "Hybrid",
+        "status": "Operational"
+      }
+    },
+    {
+      "vesselId": 1002,
+      "name": "MV Discovery",
+      "type": "Research",
+      "capacityTons": 1000,
+      "powerManagement": {
+        "systemType": "Electric",
+        "status": "Maintenance Required"
+      }
+    },
+    {
+      "vesselId": 1003,
+      "name": "RS Endurance",
+      "type": "Research",
+      "capacityTons": 2000,
+      "powerManagement": {
+        "systemType": "Diesel-Electric",
+        "status": "Operational"
+      }
+    },
+    {
+      "vesselId": 1004,
+      "name": "Yacht Odyssey",
+      "type": "Yacht",
+      "capacityTons": 500,
+      "powerManagement": {
+        "systemType": "Electric",
+        "status": "Operational"
+      }
+    },
+    {
+      "vesselId": 1005,
+      "name": "USV Explorer",
+      "type": "Unmanned Surface Vehicle",
+      "capacityTons": 100,
+      "powerManagement": {
+        "systemType": "Solar-Powered",
+        "status": "Operational"
+      }
+    }
+  ]
+}
