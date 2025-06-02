@@ -43,7 +43,11 @@
         </tr>
       </thead>
       <tbody>
+        <tr v-if="sortedMaintenanceLogs.length === 0">
+          <td colspan="6" class="text-center py-6 text-zinc-600">No data available</td>
+        </tr>
         <tr
+          v-else
           class="bg-white text-sm shadow-sm md:table-row md:shadow-none overflow-hidden flex flex-col md:flex-row p-4 md:p-0 md:mb-0"
           v-for="(log, idx) in sortedMaintenanceLogs"
           :key="log.logId"
@@ -69,7 +73,7 @@
             </p>
           </td>
           <td class="p-1 md:table-cell">
-            <span class="font-semibold block md:hidden">Services Performed</span>
+            <span class="font-semibold block md:hidden">Services</span>
 
             <div class="flex flex-wrap gap-2">
               <small
@@ -82,7 +86,7 @@
             </div>
           </td>
           <td class="p-1 md:table-cell">
-            <span class="font-semibold block md:hidden">Result</span>
+            <span class="font-semibold block md:hidden">Outcome</span>
             {{ log.outcome }}
           </td>
         </tr>

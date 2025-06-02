@@ -43,6 +43,9 @@
         </tr>
       </thead>
       <tbody>
+        <tr v-if="sortedIncidentsLogs.length === 0">
+          <td colspan="6" class="text-center py-6 text-zinc-600">No data available</td>
+        </tr>
         <tr
           class="bg-white text-sm shadow-sm md:table-row md:shadow-none overflow-hidden flex flex-col md:flex-row p-4 md:p-0 md:mb-0"
           v-for="(log, idx) in sortedIncidentsLogs"
