@@ -2,21 +2,18 @@
   "logs": [
     {
       "logId": 1,
-      "date": "2024-03-01",
+      "date": "2030-03-01",
       "vesselId": 1001,
       "type": "Maintenance",
       "activityType": "Scheduled",
       "description": "Annual engine maintenance",
       "durationHours": 4,
-      "servicePerformed": [
-        "Engine Check",
-        "Oil Change"
-      ],
+      "servicePerformed": ["Engine Check", "Oil Change"],
       "outcome": "Successful"
     },
     {
       "logId": 2,
-      "date": "2024-03-02",
+      "date": "2035-03-02",
       "vesselId": 1002,
       "type": "Operation",
       "operationType": "Navigation",
@@ -26,7 +23,7 @@
     },
     {
       "logId": 3,
-      "date": "2024-03-03",
+      "date": "2035-03-03",
       "vesselId": 1003,
       "type": "Incident",
       "incidentType": "Mechanical Failure",
@@ -36,17 +33,14 @@
     },
     {
       "logId": 4,
-      "date": "2024-03-04",
+      "date": "2010-03-04",
       "vesselId": 1001,
       "type": "Maintenance",
       "activityType": "Emergency",
       "description": "Emergency hull repair after minor collision",
       "durationHours": 8,
-      "servicePerformed": [
-        "Hull Inspection",
-        "Hull Welding"
-      ],
-      "outcome": "Successful"
+      "servicePerformed": ["Hull Inspection", "Hull Welding"],
+      "outcome": "Failure"
     },
     {
       "logId": 5,
@@ -76,15 +70,12 @@
       "activityType": "Scheduled",
       "description": "Radar system maintenance and calibration",
       "durationHours": 2,
-      "servicePerformed": [
-        "Radar Calibration",
-        "Software Update"
-      ],
-      "outcome": "Successful"
+      "servicePerformed": ["Radar Calibration", "Software Update"],
+      "outcome": "Unresolved"
     },
     {
       "logId": 8,
-      "date": "2024-03-08",
+      "date": "2005-03-08",
       "vesselId": 1003,
       "type": "Operation",
       "operationType": "Survey",
@@ -94,7 +85,7 @@
     },
     {
       "logId": 9,
-      "date": "2024-03-09",
+      "date": "2008-03-09",
       "vesselId": 1002,
       "type": "Incident",
       "incidentType": "Navigation System Error",
@@ -110,10 +101,7 @@
       "activityType": "Emergency",
       "description": "Electrical system overhaul due to short circuit",
       "durationHours": 12,
-      "servicePerformed": [
-        "Circuit Inspection",
-        "Wire Replacement"
-      ],
+      "servicePerformed": ["Circuit Inspection", "Wire Replacement"],
       "outcome": "Successful"
     },
     {
@@ -144,10 +132,7 @@
       "activityType": "Scheduled",
       "description": "Propeller and shaft inspection",
       "durationHours": 4,
-      "servicePerformed": [
-        "Propeller Balancing",
-        "Shaft Alignment"
-      ],
+      "servicePerformed": ["Propeller Balancing", "Shaft Alignment"],
       "outcome": "Successful"
     },
     {
@@ -178,10 +163,7 @@
       "activityType": "Scheduled",
       "description": "Propeller inspection and maintenance",
       "durationHours": 6,
-      "servicePerformed": [
-        "Propeller Inspection",
-        "Propeller Polishing"
-      ],
+      "servicePerformed": ["Propeller Inspection", "Propeller Polishing"],
       "outcome": "Successful"
     },
     {
@@ -212,10 +194,7 @@
       "activityType": "Emergency",
       "description": "Repaired breach in fuel tank",
       "durationHours": 24,
-      "servicePerformed": [
-        "Fuel Tank Inspection",
-        "Breach Welding"
-      ],
+      "servicePerformed": ["Fuel Tank Inspection", "Breach Welding"],
       "outcome": "Successful"
     },
     {
@@ -246,10 +225,7 @@
       "activityType": "Scheduled",
       "description": "Routine check-up of electrical systems",
       "durationHours": 3,
-      "servicePerformed": [
-        "Electrical System Diagnostic",
-        "Circuitry Inspection"
-      ],
+      "servicePerformed": ["Electrical System Diagnostic", "Circuitry Inspection"],
       "outcome": "Successful"
     },
     {
@@ -280,10 +256,7 @@
       "activityType": "Scheduled",
       "description": "Propeller inspection and maintenance",
       "durationHours": 2,
-      "servicePerformed": [
-        "Propeller Inspection",
-        "Propeller Polishing"
-      ],
+      "servicePerformed": ["Propeller Inspection", "Propeller Polishing"],
       "outcome": "Successful"
     },
     {
@@ -314,10 +287,7 @@
       "activityType": "Emergency",
       "description": "Electrical system overhaul due to unexpected short circuit",
       "durationHours": 12,
-      "servicePerformed": [
-        "Electrical System Inspection",
-        "Cable Replacement"
-      ],
+      "servicePerformed": ["Electrical System Inspection", "Cable Replacement"],
       "outcome": "Successful"
     },
     {
@@ -348,10 +318,7 @@
       "activityType": "Scheduled",
       "description": "Routine check-up of life-saving equipment",
       "durationHours": 3,
-      "servicePerformed": [
-        "Life Jacket Inspection",
-        "Lifeboat Testing"
-      ],
+      "servicePerformed": ["Life Jacket Inspection", "Lifeboat Testing"],
       "outcome": "Successful"
     },
     {
@@ -382,10 +349,7 @@
       "activityType": "Emergency",
       "description": "Rudder malfunction repair",
       "durationHours": 7,
-      "servicePerformed": [
-        "Rudder Inspection",
-        "Hydraulic System Repair"
-      ],
+      "servicePerformed": ["Rudder Inspection", "Hydraulic System Repair"],
       "outcome": "Successful"
     }
   ],
