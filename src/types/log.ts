@@ -4,7 +4,7 @@ export interface MaintenanceLog {
   logId: number
   date: string
   vesselId: number
-  maintenanceType: string
+  activityType: string
   description?: string
   durationHours?: number
   outcome: string
